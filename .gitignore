@@ -37,3 +37,47 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# --- Python specific ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled libraries / binaries
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# Logs / cache
+*.log
+*.tmp
+*.bak
+
+# Jupyter / experiments
+.ipynb_checkpoints/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Environments and data
+.env
+.env.*
+*.csv
+*.tsv
+*.sqlite3
+*.db
+
+# Models and large files
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.joblib
+
